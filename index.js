@@ -40,7 +40,7 @@ scissorBtn.addEventListener("click", function s() {
         computerPickEl.textContent = "Scissor"
     }
 } )
-paperBtn.addEventListener("click", function s() {
+paperBtn.addEventListener("click", function p() {
     pick = Math.floor(Math.random() * 3 + 1)
     if (pick === 3) {
         resultsEl.textContent = "You lost"
