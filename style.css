@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+body {
+    margin: 15% 15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f3f3;
+}
+.mainSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin: 0.5rem;
+    color: black;
+    border: none;
+    border-radius: 9px;
+    padding: 8px 15px;
+    font-weight: 600;
+    background-color: yellowgreen;
+}
+
+button:hover {
+    background-color: rgba(186, 243, 72, 0.97);
+    cursor: pointer;
+}
+
+.text-div {
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
