@@ -8,30 +8,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="main" class="mainSection">
-        <section>
-            <div class="text-div">Select an Option</div>
-            <div>
-                <button id="rockBtn">Rock</button>
-            </div>
-            <div>
-            <button id="paperBtn">Paper</button>
-            </div>
-            <div>
-            <button id="scissorsBtn">Scissors</button>
-            </div>
+    <h1>Play Rock Paper Scissors</h1>
+    <article class="saperation">
+        <section id="main" class="mainSection">
+            <section>
+                <div class="text-div">Select an Option</div>
+                <div>
+                    <button id="rockBtn" class="playbtn">Rock</button>
+                </div>
+                <div>
+                <button id="paperBtn" class="playbtn">Paper</button>
+                </div>
+                <div>
+                <button id="scissorsBtn" class="playbtn">Scissors</button>
+                </div>
+            </section>
+            <section>
+                <div class="text-div">Results</div>
+                <div class="empty-div">&nbsp;</div>
+                <div id="results-el"></div>
+            </section>
+            <section>
+                <div class="text-div">Computer Pick:</div>
+                <div class="empty-div">&nbsp;</div>
+                <div id="computer-pick-el"></div>
+            </section>
+            <section>
+                <div class="text-div">Scoreboard</div>
+                <div class="empty-div">&nbsp;</div>
+                <div id="player-score-el" class="text-div">You: 0</div>
+                <div id="computer-score-el" class="text-div">Computer: 0</div>
+                <div id="tie-el" class="text-div">Ties: 0</div>
+            </section>
         </section>
-        <section>
-            <div class="text-div">Results</div>
-            <div class="empty-div">&nbsp;</div>
-            <div id="results-el"></div>
-        </section>
-        <section>
-            <div class="text-div">Computer Pick:</div>
-            <div class="empty-div">&nbsp;</div>
-            <div id="computer-pick-el"></div>
-        </section>
+    </article>
+    <section>
+        <div class="centeredbtn">
+            <button id="resetbtn" class="resetbtnstyle">RESET ALL</button>
+        </div>
     </section>
     <script src="index.js"></script>
+    <footer>&copy;Stark</footer>
 </body>
 </html>
