@@ -2,19 +2,19 @@
     margin: 0;
 }
 body {
-    margin-top: 18%;
-    margin-bottom: 15%;
-    margin-right: 6%;
-    margin-left: 6%;
+    margin: 6% 8% 0% 8%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f3f3f3;
 }
 .mainSection {
     display: flex;
     justify-content: space-between;
+    margin-top: 6%;
 }
-
-button {
+h1 {
+    text-align: center;
+}
+.playbtn {
     margin: 0.5rem;
     color: black;
     border: none;
@@ -24,7 +24,7 @@ button {
     background-color: yellowgreen;
 }
 
-button:hover {
+.playbtn:hover {
     background-color: rgba(186, 243, 72, 0.97);
     cursor: pointer;
 }
@@ -32,4 +32,24 @@ button:hover {
 .text-div {
     font-weight: 600;
     margin-bottom: 1.25rem;
+}
+.centeredbtn {
+    text-align: center;
+    padding-top: 1rem;
+}
+.resetbtnstyle {
+    margin: 0.5rem;
+    color: black;
+    border: none;
+    border-radius: 9px;
+    padding: 8px 15px;
+    font-weight: 600;
+    background-color: rgb(251, 64, 64);
+}
+.resetbtnstyle:hover {
+    background-color: rgb(248, 89, 89);
+}
+footer {
+    font-size: xx-small;
+    text-align: center;
 }
